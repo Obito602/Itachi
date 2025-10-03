@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="l.css">
+</head>
+<body>
+    <fieldset >
+    <legend >Enquiry form</legend>
+    <form  method=""   action="">
+        
+        <label >Name</label>
+        <input type="text"  pattern="[a-zA-Z] {3-40}" placeholder="Enter the name" name="uname"><br>
+        <label >gender</label><br>
+        <input type="radio" value="male" name="gender"/>male
+        <input type="radio" value="female" name="gender"/>female <br>
+        <label >course</label>
+        <input type="checkbox" value="php"> php <input type="checkbox" value="java">c++
+        <input type="checkbox" value="java">  c<input type="checkbox" value="java">python <br> <br><br>
+        <label >Email</label>
+        <input type="email" placeholder="enter the email" name="uemail"><br>
+        <label>phone</label>
+        <input type="tel" pattern="[0-9]{10}" title="enter the valid number digit" placeholder ="enter thwe phone " name="uphone"><br>
+        <label >message</label><br>
+        <textarea ></textarea><br>
+        <label >photo</label>
+        <input type="file"><br>
+        <label >password</label>
+        <input type="password"><br>
+        <label >country</label>
+        <select>
+            <option value="india">india</option>
+            <option value="new">Newsiland</option>
+            <option value="eng">England</option>
+            <option value="aus">Austrelia</option>
+            <option value="america">America</option>
+        </select><br><br>
+        <label>course</label>
+        <select>
+            <optgroup label="frontend">
+                <option >html</option>
+                <option >css</option>
+                <option >js</option>
+            </optgroup>
+            <optgroup label="backend">
+                <option >php</option>
+                <option >node</option>
+                <option >mysql</option>
+            </optgroup>
+        </select><br><br>
+        <button type="submit">save</button><br>
+        <input type="submit" value="go"><br>
+        <button type="reset">reset</button>
+    </fieldset>
+
+
+
+         
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,248 @@
+*{ 
+    margin:0%;
+    padding:0%;
+    box-sizing:border_box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+html,body{
+    height:100%; 
+    width:100%;
+   
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    display: inline-block;
+    align-items: center;
+    display: flex;
+     position: fixed;
+    height: 13%;
+    width: 100%;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+
+#fh{ 
+    height: 13%;
+    width: 100%;  
+    background-color:aliceblue;
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+}
+#strip{
+    font-weight: 700;
+height: 8%;
+width: 100%;
+color: white;
+background-color: darkblue;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#con{
+    height: 76%;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content:space-around;
+}
+#box1{
+height: 90%;
+width: 47%;
+background-color:white;
+
+
+}
+#box1 h1{
+    font-weight: 600;
+    color: rgb(6, 6, 19);
+    font-size: 50px;
+    margin: 30px;
+}
+#box1 p{
+    font-size: x-large;
+    margin: 30px;
+    font-weight: lighter;
+
+}
+
+#box2{
+   height: 90%;
+    width: 47%;
+    background-color: white;
+   
+    
+}
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+   
+}
+#head{
+width: 100%;
+height: 16%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(5, 5, 103);
+}
+#head h1{
+    text-align: center;
+}
+#b{
+    display: flex;
+}
+#b1{ margin: 10px;
+    text-align: center;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+   background-color: aqua;
+    display: flex;
+    border-radius: 5px;
+}
+#b1:hover{
+    background-color: rgb(114, 158, 172)
+    
+}
+#b2{text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px lightblue;
+    width: 23%;
+    display: flex;
+    color: rgb(89, 213, 255);
+    border: 1px solid rgb(89, 213, 255);
+    border-radius: 5px;
+}
+#b2:hover{
+    background-color: lightblue;
+    color: rgb(6, 6, 101);
+    border-color: rgb(0, 67, 90)
+}
+#strip u{
+    margin: 20px;
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    /* background: url('"https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625"') no-repeat center center fixed;
+    background-size: cover; */
+ 
+    
+}#main1{ 
+        margin-left: 50px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+   
+}
+.card{
+   
+    /* top: 50%;
+    left: 50%;
+     
+      transform: translate(-50%,-50%); */
+      margin: 30px;
+      height: 410px;
+      width: 300px;
+      border: 2px solid whitesmoke;
+      border-radius: 20px;
+      overflow: hidden;
+     
+ }
+ #c4{
+    margin-right: 50px;
+ }
+#c1{
+    margin-left: 10px;
+}
+#main1 img{
+     height: 45%;
+    width: 100%; 
+    
+}
+.texts{
+  
+   color: rgb(5, 5, 69);
+   font-size: larger;
+   display: flex;
+}
+.texts:hover{
+    color: aqua;
+}
+ #logo{
+    
+   
+     height: 70%;
+
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+#contact{
+    margin-left: 80px;
+    font-size: large;
+}
+.icon{ margin: 10px;
+   padding:10px ;
+   border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+    margin-left: 10px;
+    border-radius: 50px;
+    display: flex;
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    padding: 10px 20px;
+    background-color:lightgreen;
+    color: white;
+
+}
+#try:hover{
+    background-color: darkgreen;
+}
+ #c1 h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ #c2 h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ #c3 h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ #c4 h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
